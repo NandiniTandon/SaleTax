@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SaleTaxApplication.Entities
 {
+    /// <summary>
+    /// Product entity to contain product information
+    /// </summary>
     public class Product
     {
         public string Name { get; set; }
